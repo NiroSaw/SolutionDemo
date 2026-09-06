@@ -7,11 +7,13 @@ namespace ConsoleAppDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            
+            Console.WriteLine("Дарова щеглы");
             ClassDemo cd = new ClassDemo();
-
-            Console.WriteLine("Напиши первую цифорку йоу: ");
+            
+            Console.WriteLine("Напиши первую цифорку: ");
             int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Напиши вторую цифорку йоу: ");
+            Console.WriteLine("Напиши вторую цифорку: ");
             int b = Convert.ToInt32(Console.ReadLine());
 
             int resultSum = cd.Sum(a, b);
