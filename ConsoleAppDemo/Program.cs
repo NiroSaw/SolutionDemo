@@ -8,7 +8,7 @@ namespace ConsoleAppDemo
         {
             Console.WriteLine("Hello, World!");
             
-            Console.WriteLine("Дарова щеглы");
+            Console.WriteLine("Дарова щеглы)");
             ClassDemo cd = new ClassDemo();
             
             Console.WriteLine("Напиши первую цифорку: ");
